@@ -1,0 +1,78 @@
+.Cont {
+  display: flex;
+}
+
+.flexImage {
+  display: flex;
+  justify-content: center;
+}
+.flexItem {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+.flexItem1 {
+  display: flex;
+  color: grey;
+  font-size: 20px;
+  justify-content: center;
+}
+.flexItem2 {
+  margin: top 20px;
+  border: 10px solid white;
+  display: flex;
+  color: grey;
+  font-size: 20px;
+}
+.flexItem3 {
+  border: 10px solid white;
+  font-size: 25px;
+}
+.flexItem4 {
+  border: 10px solid white;
+  display: flex;
+  color: grey;
+  font-size: 20px;
+}
+.flexItem5 {
+  border: 10px solid white;
+  font-size: 25px;
+}
+.flexItem6 {
+  border: 10px solid white;
+  display: flex;
+  color: grey;
+  font-size: 20px;
+}
+.flexItem7 {
+  border: 10px solid white;
+  display: flex;
+  font-size: 25px;
+}
+
+.flexContainerStyle {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexDirection {
+  flex-direction: row;
+}
+
+.flexItemStyle {
+  /*width: 400px;*/
+  min-width: 200px;
+  max-width: 400px;
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  overflow: hidden;
+  margin: 20px;
+  border: 20px solid lightgrey;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
